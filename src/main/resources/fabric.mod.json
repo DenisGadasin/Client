@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "yourmod",
+  "version": "1.0.0",
+  "name": "UI Mod Example",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["yourmod.YourMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1"
+  }
+}
